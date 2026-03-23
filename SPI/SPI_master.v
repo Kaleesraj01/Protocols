@@ -62,7 +62,7 @@ end
 if (sclk_prev && !sclk) begin
 // Falling edge: send data to slave
 mosi <= shift_out[7];
-shift_out <= {shift_out[6:0], 1'b0};
+  shift_out <= {shift_out [6:0], 1'b0};
 if (bit_cnt != 0)
 bit_cnt <= bit_cnt - 1;
 else

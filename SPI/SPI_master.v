@@ -1,4 +1,4 @@
-//SPI MASTER MODULE
+  //SPI MASTER MODULE
 module spi_master(
 input clk, rst, start, miso,
 input [7:0] data_in,
